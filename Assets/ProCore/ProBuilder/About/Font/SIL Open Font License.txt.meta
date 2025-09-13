@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 18e88fe929cd84916b50f8677be466e3
+timeCreated: 1485898392
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/About/Font/SIL Open Font License.txt
+  uploadId: 229588

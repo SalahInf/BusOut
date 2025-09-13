@@ -1,0 +1,10 @@
+{
+  "Id": "fg_core",
+  "Name": "FunGames SDK",
+  "Version": "TestCPI",
+  "LogColor": "#000000",
+  "PackageUrl": "",
+  "HasIssue": false,
+  "IsDeprecated": false,
+  "Dependencies": []
+}

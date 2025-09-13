@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e598c4a80825a064a9c38406b7f35bff
+timeCreated: 1487155394
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Fonts/NotoSans - License.txt
+  uploadId: 243023

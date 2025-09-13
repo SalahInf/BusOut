@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4a7755d6b5b67874f89c85f56f95fe97
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+  uploadId: 243023

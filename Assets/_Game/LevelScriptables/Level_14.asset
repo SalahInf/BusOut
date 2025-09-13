@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c43e652ad2c594b99200e56d9a9ff5, type: 3}
+  m_Name: Level_14
+  m_EditorClassIdentifier: 
+  carsData:
+  - carId: 2
+    carColorId: 1
+    posCar: {x: -20.362516, y: -0.19999999, z: 16.488747}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 1
+    posCar: {x: -12.482645, y: -0.19999999, z: 18.982704}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.5877853, y: 0, z: 0.809017}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 6
+    posCar: {x: -7.3658514, y: -0.19999999, z: 25.217554}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 4
+    posCar: {x: -4.6027822, y: -0.19999999, z: 21.892303}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 1
+  - carId: 1
+    carColorId: 1
+    posCar: {x: 3.584096, y: -0.19999999, z: 27.711508}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 0
+    posCar: {x: -12.584986, y: -0.19999999, z: 11.396912}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.5877853, y: 0, z: 0.809017}
+    isCarHiden: 0
+  - carId: 0
+    carColorId: 6
+    posCar: {x: -18.827477, y: -0.19999999, z: 10.149956}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 3
+    posCar: {x: -17.804115, y: -0.19999999, z: 5.162033}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 1
+  - carId: 0
+    carColorId: 5
+    posCar: {x: -10.026587, y: -0.19999999, z: 4.538559}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 1
+  - carId: 0
+    carColorId: 6
+    posCar: {x: -16.064407, y: -0.19999999, z: 0.48587036}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 0
+  - carId: 0
+    carColorId: 4
+    posCar: {x: -10.538263, y: -0.19999999, z: -1.9041405}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 5
+    posCar: {x: -3.6817555, y: -0.19999999, z: 2.875908}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.80901706, y: 0, z: -0.58778524}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 6
+    posCar: {x: -6.8541737, y: -0.19999999, z: 10.4617}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.5877853, y: 0, z: 0.809017}
+    isCarHiden: 1
+  - carId: 1
+    carColorId: 5
+    posCar: {x: -0.099999905, y: -0.19999999, z: 8.902969}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.5877853, y: 0, z: 0.809017}
+    isCarHiden: 0
+  - carId: 0
+    carColorId: 0
+    posCar: {x: -2.9654033, y: -0.19999999, z: 16.176975}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 0
+    posCar: {x: 5.22147, y: -0.19999999, z: 21.78836}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 4
+    posCar: {x: 4.198114, y: -0.19999999, z: 14.722176}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 1
+  - carId: 1
+    carColorId: 6
+    posCar: {x: 11.566294, y: -0.19999999, z: 20.33356}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 0
+    posCar: {x: 7.063511, y: -0.19999999, z: 6.409004}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 1
+    posCar: {x: 10.33827, y: -0.19999999, z: 12.747795}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 0
+    carColorId: 6
+    posCar: {x: 17.297112, y: -0.19999999, z: 15.865257}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 6
+    posCar: {x: 13.510681, y: -0.19999999, z: 8.902969}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.809017, y: 0, z: 0.58778524}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 0
+    posCar: {x: 19.650837, y: -0.19999999, z: 4.746399}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 6
+    posCar: {x: 16.273745, y: -0.19999999, z: 0.7976303}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 0
+    posCar: {x: 13.510681, y: -0.19999999, z: -2.7354813}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 5
+    posCar: {x: 1.0256901, y: -0.19999999, z: 0.17412567}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.8090169, y: 0, z: -0.5877855}
+    isCarHiden: 0
+  - carId: 2
+    carColorId: 1
+    posCar: {x: 9.212568, y: -0.19999999, z: -4.294182}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 6
+    posCar: {x: 4.7097855, y: -0.19999999, z: -5.8529243}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 0
+    posCar: {x: -2.2490568, y: -0.19999999, z: -7.827301}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.8090169, y: 0, z: -0.5877855}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 6
+    posCar: {x: -8.184538, y: -0.19999999, z: -6.3724976}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.8090169, y: 0, z: -0.5877855}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 1
+    posCar: {x: -15.245714, y: -0.19999999, z: -8.346878}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: 0.58778524, y: 0, z: -0.80901706}
+    isCarHiden: 0
+  - carId: 1
+    carColorId: 0
+    posCar: {x: -9.617243, y: -0.19999999, z: -13.23085}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.8090169, y: 0, z: -0.5877855}
+    isCarHiden: 0
+  - carId: 0
+    carColorId: 1
+    posCar: {x: 0.6163523, y: -0.19999999, z: -11.776054}
+    localScale: {x: 0.9, y: 0.9, z: 0.9}
+    direction: {x: -0.8090169, y: 0, z: -0.5877855}
+    isCarHiden: 0
+  passengersData:
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 4
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 1
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 3
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 6
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 0
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  - passnegrId: 0
+    passengerColorId: 5
+    direction: {x: -1.0000001, y: 0, z: -0.00000011920929}
+  garageData: []
+  passengersPerRows: 10
+  passengersPerCols: 8
+  levelHolderPos: {x: 4.3, y: 0, z: -62}
+  isTutorialLevel: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8ae44b1ba3054c4e9b56beb6349dcad
+timeCreated: 1461311052
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  uploadId: 243023

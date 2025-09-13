@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 3a8a34809b06c50418c4d2ae4f91cbf1
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/README.txt
+  uploadId: 229588

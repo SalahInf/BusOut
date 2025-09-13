@@ -1,0 +1,132 @@
+name: Remote Build Trigger
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform (android or ios)'
+        required: true
+        default: android
+      branch:
+        description: 'Git Branch to build'
+        required: true
+        default: main
+      useCustomKeystore:
+        description: 'Use custom keystore for Android'
+        required: false
+        default: false
+      keystoreBase64:
+        description: 'Keystore in Base64 format'
+        required: false
+      keystorePassword:
+        description: 'Keystore password'
+        required: false
+      keyAlias:
+        description: 'Key Alias'
+        required: false
+      keyPassword:
+        description: 'Key Password'
+        required: false
+
+jobs:
+  trigger-remote-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Inputs
+        run: |
+          echo "platform: ${{ github.event.inputs.platform }}"
+          echo "branch: ${{ github.event.inputs.branch }}"
+          echo "owner: ${{ github.event.inputs.owner }}"
+          echo "repo: ${{ github.event.inputs.repo }}"
+          echo "useCustomKeystore: ${{ github.event.inputs.useCustomKeystore }}"
+          echo "keystoreBase64: ${{ github.event.inputs.keystoreBase64 }}"
+          echo "keystorePassword: ${{ github.event.inputs.keystorePassword }}"
+          echo "keyAlias: ${{ github.event.inputs.keyAlias }}"
+          echo "keyPassword: ${{ github.event.inputs.keyPassword }}"
+          
+      - name: Send Build Request to Remote Server
+        id: send-build
+        env:
+          REMOTE_SERVER_URL: ${{ secrets.REMOTE_BUILD_SERVER_URL }}
+          AUTH_TOKEN: ${{ secrets.REMOTE_BUILD_AUTH_TOKEN }}
+        run: |
+          build_request_payload='{
+            "platform": "${{ github.event.inputs.platform }}",
+            "branch": "${{ github.event.inputs.branch }}",
+            "owner": "${{ github.repository_owner }}",
+            "repo": "${{ github.event.repository.name }}",
+            "useCustomKeystore": "${{ github.event.inputs.useCustomKeystore }}"
+          }'
+      
+          if [ "${{ github.event.inputs.useCustomKeystore }}" == "true" ]; then
+            build_request_payload=$(echo $build_request_payload | jq '. + {
+              "keystoreBase64": "${{ github.event.inputs.keystoreBase64 }}",
+              "keystorePassword": "${{ github.event.inputs.keystorePassword }}",
+              "keyAlias": "${{ github.event.inputs.keyAlias }}",
+              "keyPassword": "${{ github.event.inputs.keyPassword }}"
+            }')
+          fi
+      
+          echo "Sending build request to $REMOTE_SERVER_URL/build-request"
+      
+          # curl ile yanıtı kaydet ve http durum kodunu al
+          http_status=$(curl -s -w "%{http_code}" -o response.json -X POST "$REMOTE_SERVER_URL/build-request" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $AUTH_TOKEN" \
+            -d "$build_request_payload")
+      
+          echo "HTTP status code: $http_status"
+      
+          # HTTP status 2xx değilse hata ver
+          if [ "$http_status" -lt 200 ] || [ "$http_status" -ge 300 ]; then
+            echo "Build request failed with HTTP $http_status"
+            cat response.json
+            exit 1
+          fi
+      
+          echo "response=$(cat response.json)" >> $GITHUB_OUTPUT
+
+
+
+      - name: Notify Lark Bot with Formatted Card
+        if: success()  
+        env:
+          LARK_WEBHOOK_URL: https://open.larksuite.com/open-apis/bot/v2/hook/1dd7140e-e703-454a-8a18-719e221b6448
+        run: |
+          response='${{ steps.send-build.outputs.response }}'
+      
+          owner=$(echo "$response" | jq -r '.job.owner')
+          repo=$(echo "$response" | jq -r '.job.repo')
+          branch=$(echo "$response" | jq -r '.job.branch')
+          platform=$(echo "$response" | jq -r '.job.platform')
+          job_id=$(echo "$response" | jq -r '.job.id')
+      
+          message=$(jq -n \
+            --arg owner "$owner" \
+            --arg repo "$repo" \
+            --arg branch "$branch" \
+            --arg platform "$platform" \
+            --arg job_id "$job_id" \
+            '{
+              msg_type: "interactive",
+              card: {
+                config: { wide_screen_mode: true },
+                header: {
+                  title: { tag: "plain_text", content: "🚀 Build Request Received" }
+                },
+                elements: [
+                  {
+                    tag: "markdown",
+                    content: "A build request was received for **\($owner)/\($repo)** on branch **\($branch)**, targeting **\($platform)** platform."
+                  },
+                  {
+                    tag: "markdown",
+                    content: "**🆔 Job ID:** `\($job_id)`"
+                  }
+                ]
+              }
+            }')
+      
+          curl -X POST "$LARK_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d "$message"

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c31e9d985a7477641845983a9e3f2dd5
+timeCreated: 1473448204
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Resources/Materials/VertexPicker.mat
+  uploadId: 229588

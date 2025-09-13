@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff383952e5ab4984fa6d78dc45f912ca
+timeCreated: 1427324229
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Resources/Materials/InvisibleFace.mat
+  uploadId: 229588

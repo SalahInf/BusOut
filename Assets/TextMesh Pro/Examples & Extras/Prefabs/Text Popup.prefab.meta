@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c879e892866c8db4f8930b25672233ac
+timeCreated: 1435130987
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  uploadId: 243023

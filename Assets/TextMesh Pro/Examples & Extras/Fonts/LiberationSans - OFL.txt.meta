@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf996cd9d4bdfb5409bfd909f2ceeef3
+timeCreated: 1484171296
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Fonts/LiberationSans - OFL.txt
+  uploadId: 243023

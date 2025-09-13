@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 09641b029dfa78843902b548a9de7553
+timeCreated: 1484171878
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald
+    Bold SDF.asset
+  uploadId: 243023

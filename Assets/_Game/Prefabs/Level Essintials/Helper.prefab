@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9100345675873335542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8617436869118346345}
+  - component: {fileID: 5451035074293465230}
+  m_Layer: 0
+  m_Name: Helper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8617436869118346345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100345675873335542}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5451035074293465230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100345675873335542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c35914318ebf0f4581f4b70e0699bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 8765542081673825531, guid: 82cf9a3f190f9564fb9b82d8f04e3e35, type: 3}
+  - {fileID: 4535848416430995101, guid: 1cf4971a8fadb8e4bba84696aeb8aa55, type: 3}
+  - {fileID: 4855721450812256434, guid: f55c9e74b54579343814190b266176b6, type: 3}
+  uiManager: {fileID: 0}
+  materialsCars:
+  - {fileID: 2100000, guid: 465456974355ada4c8b5adfcbd119838, type: 2}
+  - {fileID: 2100000, guid: 252dd3e5cbcc03742a02742598ac60e1, type: 2}
+  - {fileID: 2100000, guid: f04f935bf5bbe2749ad4b8946751c69b, type: 2}
+  - {fileID: 2100000, guid: ee9ab59821b76ec41a9ccb8860058d76, type: 2}
+  - {fileID: 2100000, guid: bd8a3f2d662607b42b30c54e8ea74422, type: 2}
+  - {fileID: 2100000, guid: 4ba75488bbbd1f84798c13beffc1ae2e, type: 2}
+  - {fileID: 2100000, guid: 624d97cc7dc59224eaf025808d14a4cb, type: 2}
+  materialsStickman:
+  - {fileID: 2100000, guid: 1321cf24f3a72c44bad26364746fe8e9, type: 2}
+  - {fileID: 2100000, guid: 09370db1b17c56340ba7260d906b175c, type: 2}
+  - {fileID: 2100000, guid: a09d97fa05db5724dbaeca9b87bcd0f6, type: 2}
+  - {fileID: 2100000, guid: 6882cdf5565d74d4b9ac97d38dd03655, type: 2}
+  - {fileID: 2100000, guid: e5fa3f3b0b54f5743ad6f0c1fcfed838, type: 2}
+  - {fileID: 2100000, guid: ad8c8e0e3e84a674a950327125bfd111, type: 2}
+  - {fileID: 2100000, guid: 33c0be872f631f640b8107dd55d870e4, type: 2}
+  levelHolder: {fileID: 0}
+  passengersHolder: {fileID: 0}
+  spline: {fileID: 0}
+  levelSpowner: {fileID: 0}
+  currentLevel: {fileID: 0}
+  CarSpeed: 60
+  CarConvySpeed: 25
+  smoothTurn: 0.1
+  smoothAcceleration: 0.2
+  scaleShakWhenParking: 1.45
+  timeShakWhenParking: 0.1
+  scalePassenger: 1.2
+  timePassengerToGetInCar: 0.28
+  timeShakePassenger: 0.1
+  scalePassengerSeat: 1.6
+  lose: 0
+  win: 0
+  GetFromFrontLigne: 1
+  _currentLevelIndex: 0

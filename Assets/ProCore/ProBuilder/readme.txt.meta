@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1b6201e3f1bc084ca5ed1b1000a202c
+timeCreated: 1431459580
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/readme.txt
+  uploadId: 229588

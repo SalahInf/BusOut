@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a952e2781ef26940ae089f1053ef4ef
+timeCreated: 1480316912
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  uploadId: 243023

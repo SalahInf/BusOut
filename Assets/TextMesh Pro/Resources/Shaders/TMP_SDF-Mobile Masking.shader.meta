@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: afc255f7c2be52e41973a3d10a2e632d
+timeCreated: 1463704911
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+  uploadId: 243023

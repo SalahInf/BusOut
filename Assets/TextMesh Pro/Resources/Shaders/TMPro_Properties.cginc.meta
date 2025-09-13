@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc2d34f37efcbdf429ed46cb34aa2ad5
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+  uploadId: 243023

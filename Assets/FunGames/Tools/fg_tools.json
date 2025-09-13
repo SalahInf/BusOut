@@ -1,0 +1,11 @@
+{
+  "Id": "fg_tools",
+  "Name": "Tools",
+  "Version": "TestCPI",
+  "LogColor": "FFFFFF",
+  "PackageUrl": "",
+  "HasIssue": false,
+  "IsDeprecated": false,
+  "Dependencies": [
+  ]
+}

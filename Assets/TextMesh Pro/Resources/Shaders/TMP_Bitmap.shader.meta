@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: edfcf888cd11d9245b91d2883049a57e
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  uploadId: 243023

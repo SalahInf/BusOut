@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9d351b1c5439a9842a763d4431560cef
+timeCreated: 1464165314
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered
+    List Example.unity
+  uploadId: 243023

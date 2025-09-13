@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a0772493ef5aa7f47a97e9fbfcdfc7a1
+timeCreated: 1480388889
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow
+    mode example.unity
+  uploadId: 243023

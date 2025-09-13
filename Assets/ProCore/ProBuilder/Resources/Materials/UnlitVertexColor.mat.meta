@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6db7bfac3a973f84bbccc95d60c5dc34
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Resources/Materials/UnlitVertexColor.mat
+  uploadId: 229588

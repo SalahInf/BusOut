@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 938152868a4b95549b1f1bbd0253ac42
+timeCreated: 1473448204
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Resources/Materials/FacePicker.mat
+  uploadId: 229588

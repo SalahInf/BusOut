@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e6b9842dbb1a5a4887378afab854e63
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+  uploadId: 243023

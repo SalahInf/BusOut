@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6fcda48fd084a3e4f873789c611e4356
+timeCreated: 1480083961
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.unity
+  uploadId: 229588

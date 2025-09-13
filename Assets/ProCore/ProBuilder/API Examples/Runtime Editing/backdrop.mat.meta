@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ccd5dae07c449434e8d3b0ef8ac86683
+timeCreated: 1424269530
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/API Examples/Runtime Editing/backdrop.mat
+  uploadId: 229588

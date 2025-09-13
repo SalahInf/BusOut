@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: be0a94d60788f47e297be6a98a5f888d
+timeCreated: 1478810816
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/API Examples/Procedural Mesh/Extrude Random
+    Edges.unity
+  uploadId: 229588

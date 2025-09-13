@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5e6abf300e36c0a4eb43969c3f2172f8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  uploadId: 243023

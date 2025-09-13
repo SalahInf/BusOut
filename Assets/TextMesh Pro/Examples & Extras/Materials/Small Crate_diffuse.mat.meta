@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 92f161029a6d3c54a92d9d283352a135
+timeCreated: 1473643741
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  uploadId: 243023

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33a80148273263043b571d27ae904a61
+timeCreated: 1494518066
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/About/ThirdPartyLicenses.txt
+  uploadId: 229588

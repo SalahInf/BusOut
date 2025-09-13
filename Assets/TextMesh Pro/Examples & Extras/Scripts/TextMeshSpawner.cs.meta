@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 385939aed18e82d41894437798c30ed8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - TheFont: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  uploadId: 243023

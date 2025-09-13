@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ae07e7bfc40bf5479b192d38429ecec
+timeCreated: 1445416487
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking
+    & Layout.unity
+  uploadId: 243023

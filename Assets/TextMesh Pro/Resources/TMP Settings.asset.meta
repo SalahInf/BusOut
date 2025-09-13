@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 69ed5bac41eebaa4c97e9d2a4168c54f
+timeCreated: 1436653997
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  uploadId: 243023

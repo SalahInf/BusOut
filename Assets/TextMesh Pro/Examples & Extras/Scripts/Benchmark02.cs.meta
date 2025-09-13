@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3467f4170568a484d8b57e2051a27363
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - TheFont: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  uploadId: 243023

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a636e792fbdd88f49b793f4d32e6a989
+timeCreated: 1487199155
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  uploadId: 243023

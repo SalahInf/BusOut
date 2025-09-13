@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c4fd2a959a50b584b92dedfefec1ffda
+timeCreated: 1464163339
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap
+    Numbers.asset
+  uploadId: 243023

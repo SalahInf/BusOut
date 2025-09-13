@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2e58e16192dbb47469ae041ba1331088
+timeCreated: 1508535910
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Shader/pb_SelectionPicker.shader
+  uploadId: 229588

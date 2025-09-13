@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccbb445e0d140541b8e3037ef66312b, type: 3}
+  m_Name: FGGameAnalyticsSettings
+  m_EditorClassIdentifier: 
+  moduleInfo:
+    Id: fg_game_analytics
+    Name: Game Analytics
+    Version: TestCPI
+    LogColor: '#83C3D6'
+    PackageUrl: 
+    HasIssue: 0
+    IsDeprecated: 0
+    Dependencies: []
+  logEnabled: 1
+  LogColor: {r: 0.5137255, g: 0.7647059, b: 0.8392157, a: 1}
+  gameAnalyticsIosGameKey: 
+  gameAnalyticsIosSecretKey: 
+  gameAnalyticsAndroidGameKey: 8d08c1f6ac4052e9bedb2baa585ede2d
+  gameAnalyticsAndroidSecretKey: ab8e9af54eee2c31d5318cb4a3435d5b0613fe77

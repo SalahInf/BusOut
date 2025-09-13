@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ab5688c9cc8cf7479fba8f23d8eab9d
+timeCreated: 1508535911
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Shader/pb_NormalPreview.shader
+  uploadId: 229588

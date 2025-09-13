@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bc7ec57068c16b3448b8c7a9206eaf1d
+timeCreated: 1508535911
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111418
+  packageName: ProBuilder
+  packageVersion: 2.9.8f3
+  assetPath: Assets/ProCore/ProBuilder/Shader/pb_TransparentOverlay.shader
+  uploadId: 229588

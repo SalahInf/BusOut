@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1cf17907700cb647aa3ea423ba38f2e
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  uploadId: 243023

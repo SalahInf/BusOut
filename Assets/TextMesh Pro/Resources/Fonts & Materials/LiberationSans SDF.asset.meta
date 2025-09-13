@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 715b80e429c437e40867928a4e1fc975
+timeCreated: 1484171803
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84126
+  packageName: TextMesh Pro
+  packageVersion: 1.2.2
+  assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  uploadId: 243023

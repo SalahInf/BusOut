@@ -1,0 +1,10 @@
+{
+  "Id": "fg_analytics",
+  "Name": "Analytics",
+  "Version": "TestCPI",
+  "LogColor": "#3987E5",
+  "PackageUrl": "",
+  "HasIssue": false,
+  "IsDeprecated": false,
+  "Dependencies": []
+}
